@@ -1,0 +1,34 @@
+Assumptions, Constraints & Dependencies
+Assumptions
+The following conditions are assumed to be true for the successful execution of this automation test project:
+1.	The application under test is feature-stable and accessible in the test environment
+2.	Test data is available and can be seeded/cleaned up automatically
+3.	API documentation (Swagger/OpenAPI) is provided and up-to-date
+4.	Automation engineers have access to all required tools and environments
+5.	Application UI locators will use data-testid attributes for reliable test automation
+6.	No major UI redesigns will occur during the automation development phase
+7.	CI/CD pipeline permissions and infrastructure are available
+8.	The application supports modern browsers (Chrome, Firefox, Safari) as per the browser matrix
+9.	Test execution can be run in parallel across multiple workers
+10.	Security policies allow Playwright to execute in the test environment
+Constraints
+The following limitations apply to this project:
+1.	Browser Coverage: Only browsers supported by the application will be tested (Chromium, Firefox, WebKit)
+2.	Device Coverage: Mobile testing will be limited to emulation; no physical device testing
+3.	Environment Access: Tests will run only on Dev/Staging environments; production access is not permitted
+4.	Test Data: Only synthetic/anonymized test data may be used; production data is prohibited
+5.	Team Availability: Automation team consists of [X] engineers allocated [Y]% to this project
+6.	Timeline: Project must be completed within [Z] weeks from project kickoff
+7.	Tooling: Only open-source Playwright tools; no commercial tool licenses approved
+8.	Network: Tests may be affected by network latency and firewall restrictions
+9.	Compliance: All tests must comply with healthcare data privacy regulations (HIPAA/GDPR)
+10.	CI/CD Integration: Only GitHub Actions/GitLab CI pipelines are supported
+Dependencies
+The following external dependencies must be fulfilled for this project to succeed:
+Dependency	Owner	Target Date	Critical Path
+Test environment availability	DevOps	Week 1	Yes
+API documentation (Swagger)	Backend Dev	Week 1	Yes
+Test data seeding scripts	QA/DevOps	Week 2	Yes
+CI/CD pipeline permissions	DevOps	Week 4	Yes
+Code review availability	QA Lead	Throughout	Yes
+UAT sign-off	Product Owner	Week 16	Yes
