@@ -1,0 +1,22 @@
+Algorithm
+
+Thuật toán hiện diện khắp mọi nơi trong cuộc sống hàng ngày; chúng không phải là một khái niệm xa vời, khó hiểu. Trên thực tế, chúng ta đã vô thức học được nhiều thuật toán và sử dụng chúng để giải quyết các vấn đề lớn nhỏ trong cuộc sống.
+Nguyên tắc tra cứu từ điển phù hợp với thuật toán tìm kiếm nhị phân. Thuật toán tìm kiếm nhị phân thể hiện ý tưởng thuật toán quan trọng là chia để trị.
+Quá trình sắp xếp bài tây rất giống với thuật toán sắp xếp chèn. Thuật toán sắp xếp chèn thích hợp để sắp xếp các tập dữ liệu nhỏ.
+Quá trình tạo ra sự thay đổi về bản chất là một thuật toán tham lam, trong đó mỗi bước đều đưa ra lựa chọn tốt nhất tại thời điểm đó.
+Thuật toán là một tập hợp các hướng dẫn hoặc các bước để giải quyết một vấn đề cụ thể trong một khoảng thời gian hữu hạn, trong khi cấu trúc dữ liệu là một cách thức tổ chức và lưu trữ dữ liệu trong máy tính.
+Cấu trúc dữ liệu và thuật toán có mối liên hệ mật thiết. Cấu trúc dữ liệu là nền tảng của thuật toán, trong khi thuật toán thổi hồn vào cấu trúc dữ liệu.
+Chúng ta có thể so sánh cấu trúc dữ liệu và thuật toán với việc lắp ráp các khối xây dựng. Các khối xây dựng đại diện cho dữ liệu, hình dạng và sự kết nối của các khối xây dựng đại diện cho cấu trúc dữ liệu, và các bước lắp ráp các khối xây dựng tương ứng với các thuật toán.
+2. Hỏi & Đáp¶
+Hỏi : Là một lập trình viên, tôi chưa bao giờ sử dụng thuật toán để giải quyết vấn đề trong công việc hàng ngày. Các thuật toán thông thường đều được tích hợp sẵn trong ngôn ngữ lập trình và có thể sử dụng trực tiếp. Điều này có nghĩa là các vấn đề trong công việc của chúng ta vẫn chưa đến mức cần đến thuật toán?
+
+Nếu so sánh các kỹ năng nghề nghiệp cụ thể với các động tác võ thuật, thì các môn học cơ bản giống với nội lực hơn.
+
+Tôi tin rằng tầm quan trọng của việc học thuật toán (và các môn học cơ bản khác) không nằm ở việc tự mình triển khai chúng trong công việc, mà nằm ở việc sử dụng kiến ​​thức đó để đưa ra những phản hồi và phán đoán chuyên nghiệp khi giải quyết vấn đề, từ đó nâng cao chất lượng công việc tổng thể. Ví dụ đơn giản, mọi ngôn ngữ lập trình đều có các hàm sắp xếp tích hợp sẵn:
+
+Nếu chúng ta chưa học về cấu trúc dữ liệu và thuật toán, chúng ta có thể chỉ cần nhồi nhét bất kỳ dữ liệu nào vào hàm sắp xếp này. Nó chạy trơn tru, hoạt động tốt và dường như không có vấn đề gì.
+Tuy nhiên, nếu chúng ta đã học về thuật toán, chúng ta sẽ biết rằng độ phức tạp về thời gian của hàm sắp xếp tích hợp sẵn là...
+Tuy nhiên, nếu dữ liệu được cung cấp là một số nguyên có số chữ số cố định (chẳng hạn như mã số sinh viên), thì chúng ta có thể sử dụng thuật toán "sắp xếp cơ số" hiệu quả hơn để giảm độ phức tạp thời gian xuống O(n).
+,TRONG
+Số lượng bit. Khi khối lượng dữ liệu lớn, thời gian xử lý tiết kiệm được có thể tạo ra giá trị đáng kể (giảm chi phí, cải thiện trải nghiệm người dùng, v.v.).
+Trong kỹ thuật, nhiều vấn đề khó giải quyết tối ưu, và nhiều vấn đề chỉ được giải quyết "gần đúng". Độ khó của một vấn đề phụ thuộc vào cả bản chất của vấn đề đó và kiến ​​thức của người quan sát. Kiến thức càng toàn diện và kinh nghiệm càng nhiều, việc phân tích vấn đề càng sâu sắc, và vấn đề càng có thể được giải quyết một cách khéo léo hơn.
